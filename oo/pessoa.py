@@ -16,3 +16,8 @@ if __name__ == '__main__':
     print(daniel.idade)
     for filho in daniel.filhos:
         print(filho.nome)
+        daniel.sexo = 'Masculino'
+        del daniel.filhos
+        print(daniel.sexo)
+        print(daniel.__dict__)
+        print(lucineia.__dict__)
